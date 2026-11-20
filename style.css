@@ -33,6 +33,7 @@ h2 {
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 6px;
 }
+
 /* Eingabefelder */
 input {
     width: 100%;
@@ -62,4 +63,55 @@ button {
 
 button:hover {
     background-color: #1d4ed8;
+}
+
+/* Ausgabebereich / Tabelle */
+.ergebnisse {
+    margin-top: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+thead th {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--bg-color);
+}
+
+tbody tr:hover {
+    background-color: #f3ece2;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Footer */
+footer {
+    max-width: 900px;
+    margin: 40px auto 0;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555555;
 }

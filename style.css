@@ -1,0 +1,35 @@
+/* Grundfarben und Schriftarten (Runde 2 - P1) */
+:root {
+    --bg-color: #faf7f2;
+    --card-bg: #ffffff;
+    --text-color: #2c2c2c;
+    --primary-color: #c0392b;
+    --primary-hover: #a93226;
+    --border-color: #dcd6cc;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 6px;
+}

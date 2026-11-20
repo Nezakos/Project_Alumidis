@@ -33,3 +33,33 @@ h2 {
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 6px;
 }
+/* Eingabefelder */
+input {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+/* Beschriftungen */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
